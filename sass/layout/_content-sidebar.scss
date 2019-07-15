@@ -1,4 +1,5 @@
 .site {
+	min-height: 100vh;
 	display: grid;
 	grid-template-columns: auto (-$size__site-sidebar);
 	grid-template-rows: $size__site-header $size__site-content $size__site-footer;
