@@ -1,6 +1,7 @@
 .site {
 	display: grid;
 	grid-template-columns: auto (-$size__site-sidebar);
+	grid-template-rows: $size__site-header $size__site-content $size__site-footer;
 	grid-template-areas:
 		"header header"
 		"main sidebar"
