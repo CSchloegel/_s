@@ -1,5 +1,6 @@
 // Import Mixins
 @import "mixins-flexbox";
+@import "mixins-buttons";
 
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
