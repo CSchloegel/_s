@@ -43,3 +43,9 @@
 	-moz-box-sizing:$type;
 	box-sizing:$type;
 }
+
+// Opactiy
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	filter: alpha(opacity=($opacity * 100));
+ }
